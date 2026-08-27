@@ -12,9 +12,8 @@
         AutoLearnHub - Automobile Engineering MCQ
     </title>
 
-    <!-- Latest CSS -->
     <link rel="stylesheet"
-          href="style.css?v=10">
+          href="style.css?v=20">
 
 </head>
 
@@ -22,267 +21,496 @@
 <body>
 
 
-    <!-- =========================
-         HEADER
-         ========================= -->
+<!-- =========================================
+     HEADER
+     ========================================= -->
 
-    <header>
+<header>
 
-        <div class="logo">
-            🚗 AutoLearnHub
+    <div class="logo">
+        🚗 AutoLearnHub
+    </div>
+
+
+    <nav>
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#mcq-tests">
+            MCQ Tests
+        </a>
+
+        <a href="#subjects">
+            Subjects
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =========================================
+     MAIN
+     ========================================= -->
+
+<main>
+
+
+    <!-- =====================================
+         HOME
+         ===================================== -->
+
+    <section
+        id="home"
+        class="hero">
+
+        <h1>
+            Automobile Engineering
+            <br>
+            MCQ Test
+        </h1>
+
+
+        <p>
+
+            Practice Automobile Engineering MCQs,
+            improve your knowledge and prepare
+            for your examinations.
+
+        </p>
+
+
+        <button
+            onclick="startQuiz()">
+
+            Start Test
+
+        </button>
+
+    </section>
+
+
+
+    <!-- =====================================
+         MCQ TESTS
+         ===================================== -->
+
+    <section
+        id="mcq-tests"
+        class="subjects">
+
+        <h2>
+            MCQ Tests
+        </h2>
+
+
+        <p style="
+            text-align:center;
+            max-width:700px;
+            margin:0 auto 35px;
+            color:#64748b;
+        ">
+
+            Choose a subject below and start
+            practising Automobile Engineering
+            multiple-choice questions.
+
+        </p>
+
+
+        <div class="subject-grid">
+
+
+            <!-- IC ENGINE -->
+
+            <div class="subject-card">
+
+                <h3>
+                    IC Engine
+                </h3>
+
+                <p>
+                    Internal Combustion Engine
+                    MCQs and practice questions.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
+
+            <!-- AUTOMOBILE -->
+
+            <div class="subject-card">
+
+                <h3>
+                    Automobile Engineering
+                </h3>
+
+                <p>
+                    Important Automobile
+                    Engineering MCQs.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
+
+            <!-- TRANSMISSION -->
+
+            <div class="subject-card">
+
+                <h3>
+                    Transmission
+                </h3>
+
+                <p>
+                    Practice questions on
+                    automobile transmission.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
+
+            <!-- BRAKING -->
+
+            <div class="subject-card">
+
+                <h3>
+                    Braking System
+                </h3>
+
+                <p>
+                    Important questions related
+                    to automobile braking systems.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
+
+            <!-- STEERING -->
+
+            <div class="subject-card">
+
+                <h3>
+                    Steering System
+                </h3>
+
+                <p>
+                    Practice steering system
+                    MCQs and concepts.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
+
+            <!-- EV -->
+
+            <div class="subject-card">
+
+                <h3>
+                    EV & BMS
+                </h3>
+
+                <p>
+                    Electric Vehicle and Battery
+                    Management System MCQs.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Start Test
+
+                </button>
+
+            </div>
+
+
         </div>
 
-
-        <nav>
-
-            <a href="#">
-                Home
-            </a>
-
-            <a href="#">
-                MCQ Tests
-            </a>
-
-            <a href="#">
-                Subjects
-            </a>
-
-            <a href="#">
-                About
-            </a>
-
-        </nav>
-
-    </header>
+    </section>
 
 
 
-    <!-- =========================
-         MAIN CONTENT
-         ========================= -->
+    <!-- =====================================
+         SUBJECTS
+         ===================================== -->
 
-    <main>
+    <section
+        id="subjects"
+        class="subjects">
 
-
-        <!-- HERO / QUIZ AREA -->
-
-        <section class="hero">
-
-            <h1>
-                Automobile Engineering
-                <br>
-                MCQ Test
-            </h1>
+        <h2>
+            Subjects
+        </h2>
 
 
-            <p>
+        <div class="subject-grid">
 
-                Practice Automobile Engineering MCQs,
-                improve your knowledge and prepare
-                for your examinations.
+
+            <div class="subject-card">
+
+                <h3>
+                    Suspension System
+                </h3>
+
+                <p>
+                    Vehicle suspension and
+                    shock absorber MCQs.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Automobile Electrical
+                </h3>
+
+                <p>
+                    Automobile electrical and
+                    electronic system questions.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Vehicle Maintenance
+                </h3>
+
+                <p>
+                    Maintenance and servicing
+                    related MCQs.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Engineering Materials
+                </h3>
+
+                <p>
+                    Metals, non-metals, ceramics
+                    and composite materials.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Thermodynamics
+                </h3>
+
+                <p>
+                    Basic thermodynamics concepts
+                    and engineering MCQs.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+
+            <div class="subject-card">
+
+                <h3>
+                    Fluid Mechanics
+                </h3>
+
+                <p>
+                    Fluid mechanics fundamentals
+                    and automobile applications.
+                </p>
+
+                <button
+                    onclick="startQuiz()">
+
+                    Practice
+
+                </button>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         ABOUT
+         ===================================== -->
+
+    <section
+        id="about"
+        class="subjects">
+
+        <h2>
+            About AutoLearnHub
+        </h2>
+
+
+        <div style="
+            max-width:850px;
+            margin:0 auto;
+            background:white;
+            padding:35px;
+            border-radius:12px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.08);
+        ">
+
+            <p style="
+                color:#475569;
+                font-size:17px;
+                margin-bottom:15px;
+            ">
+
+                <strong>AutoLearnHub</strong>
+                is an educational platform designed
+                to help students learn and practise
+                Automobile Engineering through
+                interactive MCQ tests.
 
             </p>
 
 
-            <button
-                onclick="startQuiz()">
+            <p style="
+                color:#475569;
+                font-size:17px;
+            ">
 
-                Start Test
+                The platform will provide subject-wise
+                questions, practice tests, explanations,
+                examination preparation material and
+                other learning resources.
 
-            </button>
+            </p>
 
-        </section>
+        </div>
 
+    </section>
 
 
-        <!-- =========================
-             SUBJECTS
-             ========================= -->
+</main>
 
-        <section class="subjects">
 
-            <h2>
-                Popular Subjects
-            </h2>
 
+<!-- =========================================
+     FOOTER
+     ========================================= -->
 
-            <div class="subject-grid">
+<footer>
 
+    <p>
 
-                <!-- IC ENGINE -->
+        © 2026 AutoLearnHub |
+        Automobile Engineering
+        Learning Platform
 
-                <div class="subject-card">
+    </p>
 
-                    <h3>
-                        IC Engine
-                    </h3>
+</footer>
 
-                    <p>
-                        Practice MCQs related to
-                        Internal Combustion Engines.
-                    </p>
 
-                    <button
-                        onclick="startQuiz()">
 
-                        Start Test
+<!-- =========================================
+     JAVASCRIPT
+     ========================================= -->
 
-                    </button>
-
-                </div>
-
-
-
-                <!-- AUTOMOBILE ENGINEERING -->
-
-                <div class="subject-card">
-
-                    <h3>
-                        Automobile Engineering
-                    </h3>
-
-                    <p>
-                        Important Automobile
-                        Engineering MCQs.
-                    </p>
-
-                    <button
-                        onclick="startQuiz()">
-
-                        Start Test
-
-                    </button>
-
-                </div>
-
-
-
-                <!-- TRANSMISSION -->
-
-                <div class="subject-card">
-
-                    <h3>
-                        Transmission
-                    </h3>
-
-                    <p>
-                        Test your knowledge of
-                        automobile transmission systems.
-                    </p>
-
-                    <button
-                        onclick="startQuiz()">
-
-                        Start Test
-
-                    </button>
-
-                </div>
-
-
-
-                <!-- BRAKING -->
-
-                <div class="subject-card">
-
-                    <h3>
-                        Braking System
-                    </h3>
-
-                    <p>
-                        Practice important
-                        braking system questions.
-                    </p>
-
-                    <button
-                        onclick="startQuiz()">
-
-                        Start Test
-
-                    </button>
-
-                </div>
-
-
-
-                <!-- STEERING -->
-
-                <div class="subject-card">
-
-                    <h3>
-                        Steering System
-                    </h3>
-
-                    <p>
-                        Learn and practice
-                        steering system MCQs.
-                    </p>
-
-                    <button
-                        onclick="startQuiz()">
-
-                        Start Test
-
-                    </button>
-
-                </div>
-
-
-
-                <!-- EV & BMS -->
-
-                <div class="subject-card">
-
-                    <h3>
-                        EV & BMS
-                    </h3>
-
-                    <p>
-                        Practice Electric Vehicle
-                        and Battery Management
-                        System MCQs.
-                    </p>
-
-                    <button
-                        onclick="startQuiz()">
-
-                        Start Test
-
-                    </button>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-
-    <!-- =========================
-         FOOTER
-         ========================= -->
-
-    <footer>
-
-        <p>
-            © 2026 AutoLearnHub |
-            Automobile Engineering
-            Learning Platform
-        </p>
-
-    </footer>
-
-
-
-    <!-- Latest JavaScript -->
-
-    <script
-        src="quiz.js?v=10">
-    </script>
+<script src="quiz.js?v=20"></script>
 
 
 </body>
