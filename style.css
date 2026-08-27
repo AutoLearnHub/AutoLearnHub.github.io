@@ -429,3 +429,37 @@ footer {
         margin-left: 0;
     }
 }
+* FINAL QUIZ COLOR FIX */
+
+.option.correct {
+    background-color: #16a34a !important;
+    background: #16a34a !important;
+    color: #ffffff !important;
+    border: 2px solid #86efac !important;
+}
+
+.option.wrong {
+    background-color: #dc2626 !important;
+    background: #dc2626 !important;
+    color: #ffffff !important;
+    border: 2px solid #fca5a5 !important;
+}
+
+.progress-container {
+    display: block !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    height: 10px !important;
+    margin: 0 auto 30px !important;
+    background: rgba(255,255,255,0.25) !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+}
+
+.progress-bar {
+    display: block !important;
+    height: 100% !important;
+    background: #22c55e !important;
+    border-radius: 20px !important;
+    transition: width 0.3s ease !important;
+}
