@@ -258,7 +258,6 @@ footer {
     .option {
         min-height: 55px;
     }
-}
 .option.selected {
     background: #f59e0b;
     border-color: #fbbf24;
